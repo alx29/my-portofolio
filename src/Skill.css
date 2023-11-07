@@ -1,0 +1,33 @@
+.skill {
+    display: flex;
+    width: 345px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.skill .skillName {
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Heading (L) */
+    font-family: Space Grotesk;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1.5px;
+}
+
+.skill .experience {
+    color: var(--Grey, #D9D9D9);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body */
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}

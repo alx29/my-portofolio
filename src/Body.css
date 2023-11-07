@@ -1,0 +1,83 @@
+.body .ring1 {
+    position: relative;
+    top: 42px;
+    left: -300px;
+}
+
+.body .bodyContainer {
+    position: relative;
+}
+
+.body .bodyContainer .skills {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.body .bodyContainer .line {
+    margin-top: 250px;
+}
+
+.body .bodyContainer .contact {
+    width: 120px;
+    cursor: pointer;
+    color: var(--White, #FFF);
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 2.286px;
+    text-decoration: underline var(--Green, #4EE1A0);
+}
+
+.body .bodyContainer .contact:hover {
+    color: var(--Green, #4EE1A0);
+}
+
+.body .bodyContainer .skillsContainer img {
+    position: relative;
+    left: 90%;
+}
+
+.body .bodyContainer .projectsContainer .projectsHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body .bodyContainer .projectsContainer .projectsHeader .projectsTitle {
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Heading (XL) */
+    font-family: Space Grotesk;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 100% */
+    letter-spacing: -2.5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .body .bodyContainer .line {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .body .bodyContainer .line {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .body .bodyContainer .projectsContainer .projectsHeader .projectsTitle {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px; /* 100% */
+        letter-spacing: -1.136px;
+    }
+}
