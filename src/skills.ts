@@ -3,27 +3,51 @@ import { ISkill } from "./Skill";
 const skills: ISkill[] = [
     {
         name: 'HTML',
-        experience: 4,
+        experience: 2,
     },
     {
         name: 'CSS',
-        experience: 4,
+        experience: 2,
     },
     {
         name: 'Javascript',
-        experience: 4,
+        experience: 2,
     },
     {
-        name: 'Accessibility',
-        experience: 4,
+        name: 'Typescript',
+        experience: 1,
     },
     {
         name: 'React',
-        experience: 4,
+        experience: 1,
+    },
+    {
+        name: 'Redux',
+        experience: 1,
     },
     {
         name: 'Sass',
-        experience: 4,
+        experience: 1,
+    },
+    {
+        name: 'NodeJs',
+        experience: 0.5,
+    },
+    {
+        name: 'ExpressJs',
+        experience: 0.5,
+    },
+    {
+        name: 'NestJs',
+        experience: 0.5,
+    },
+    {
+        name: 'Jest',
+        experience: 1,
+    },
+    {
+        name: 'MongoDB',
+        experience: 0.5,
     },
 ];
 

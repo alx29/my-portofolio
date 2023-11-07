@@ -2,10 +2,11 @@
     min-height: 100vh;
     overflow-y: hidden;
     overflow-x: hidden;
-    background-image: url('./assets/image-profile-desktop.webp');
+    /* background-image: url('./assets/image-profile-desktop.webp');
     background-repeat: no-repeat;
     background-size: 445px 720px;
-    background-position: right 150px top 0px;
+    background-position: right 150px top 0px; */
+    background-image: none;
 }
 
 .App .appContainer {
