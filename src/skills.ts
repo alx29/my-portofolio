@@ -19,11 +19,11 @@ const skills: ISkill[] = [
     },
     {
         name: 'React',
-        experience: 2,
+        experience: 3,
     },
     {
         name: 'Redux',
-        experience: 2,
+        experience: 3,
     },
     {
         name: 'Java',
