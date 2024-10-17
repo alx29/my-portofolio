@@ -3,26 +3,34 @@ import { ISkill } from "./Skill";
 const skills: ISkill[] = [
     {
         name: 'HTML',
-        experience: 2,
+        experience: 3,
     },
     {
         name: 'CSS',
-        experience: 2,
+        experience: 3,
     },
     {
         name: 'Javascript',
-        experience: 2,
+        experience: 3,
     },
     {
         name: 'Typescript',
-        experience: 1,
+        experience: 2,
     },
     {
         name: 'React',
-        experience: 1,
+        experience: 2,
     },
     {
         name: 'Redux',
+        experience: 2,
+    },
+    {
+        name: 'Java',
+        experience: 1,
+    },
+    {
+        name: 'Spring Boot',
         experience: 1,
     },
     {
@@ -31,15 +39,15 @@ const skills: ISkill[] = [
     },
     {
         name: 'NodeJs',
-        experience: 0.5,
+        experience: 2,
     },
     {
         name: 'ExpressJs',
-        experience: 0.5,
+        experience: 2,
     },
     {
         name: 'NestJs',
-        experience: 0.5,
+        experience: 1,
     },
     {
         name: 'Jest',
@@ -47,7 +55,7 @@ const skills: ISkill[] = [
     },
     {
         name: 'MongoDB',
-        experience: 0.5,
+        experience: 1,
     },
 ];
 
