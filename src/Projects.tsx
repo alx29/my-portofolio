@@ -46,14 +46,14 @@ const projects: IProject[] = [
     //     site: '',
     // },
     {
-        source: 3,
+        source: 5,
         title: 'MY OLD PORTOFOLIO',
         languages: ['HTML', 'CSS', 'Javascript'],
         code: 'https://github.com/alx29/alx29.github.io',
         site: 'https://alx29.github.io/',
     },
     {
-        source: 4,
+        source: 6,
         title: 'MAZE GAME',
         languages: ['HTML', 'Javascript'],
         code: 'https://github.com/alx29/maze-game',
